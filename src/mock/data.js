@@ -57,17 +57,7 @@ export const projectsData = [
       'If user selects load within the app, the previously kept image in local storage will reappear.',
     url: 'https://artattac.github.io/JS-Paint-Clone-w-Save-and-Load/',
     repo: 'https://github.com/ArtAttac/JS-Paint-Clone-w-Save-and-Load',
-  },
-  {
-    id: nanoid(),
-    img: 'project5.png',
-    title: 'Memorable Places App',
-    info:
-      ' A Kotlin and java android application that asks the user for location permissions and allows user to save memorable locations to the database and to retrieve it at a later point.',
-    info2: 'The locations are then able to be grabbed and used for directions/sharing.',
-    url: 'https://imgur.com/3jFhgzA',
-    repo: 'https://github.com/ArtAttac/Memorable-Places-App',
-  },
+  }
 ];
 
 export const contactData = {
