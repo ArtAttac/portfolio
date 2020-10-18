@@ -65,7 +65,7 @@ export const projectsData = [
     info:
       ' A Kotlin and java android application that asks the user for location permissions and allows user to save memorable locations to the database and to retrieve it at a later point.',
     info2: 'The locations are then able to be grabbed and used for directions/sharing.',
-    url: 'https://imgur.com/a/OYXlOrf',
+    url: 'https://i.imgur.com/3jFhgzA.png',
     repo: 'https://github.com/ArtAttac/Memorable-Places-App',
   },
 ];
