@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project2.jpg',
+    img: 'project2.png',
     title: 'Tracker Bracker App',
     info:
       'A progressive web app turned to a React Native phone application. With authorization and authentication, the correct and remembered user can input their path name and start recording their path.',
@@ -49,7 +49,7 @@ export const projectsData = [
   
   {
     id: nanoid(),
-    img: 'project4.jpg',
+    img: 'project4.png',
     title: 'JS Web Paint Clone (w/ Local Save/Load)',
     info:
       ' A javascript app that was created to showcase the canvas functionalty and the local storage. Users can draw, erase, change the background and more. They can also save their work to their machine or to the local storage in the application.',
@@ -65,7 +65,7 @@ export const projectsData = [
     info:
       ' A Kotlin and java android application that asks the user for location permissions and allows user to save memorable locations to the database and to retrieve it at a later point.',
     info2: 'The locations are then able to be grabbed and used for directions/sharing.',
-    url: 'https://imgur.com/a/ZWRHgLO',
+    url: 'https://imgur.com/a/OYXlOrf',
     repo: 'https://github.com/ArtAttac/Memorable-Places-App',
   },
 ];
