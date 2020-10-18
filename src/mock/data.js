@@ -20,7 +20,7 @@ export const aboutData = {
   paragraphTwo:
     'Besides my passion for coding and creating web/mobile applications, I love designing templates, creating logos and photoshopping funny pictures for shirts. In my free time, I enjoy playing basketball, hiking and exploring nature, and catching up on my favorite podcasts.',
   paragraphThree: 'Please enjoy getting to know my projects and I better.',
-  resume: 'https://drive.google.com/file/d/10C30pAQnz4HuMX3lBMD9VR5vWuaAxnaP/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/13kdFzchNdA4nwwGdav9otggsk4hpyAxv/view?usp=sharing',
 };
 
 export const projectsData = [
