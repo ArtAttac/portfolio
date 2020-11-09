@@ -26,21 +26,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project1.png',
-    title: 'YelpCamp 2.0',
+    img: 'recipy.png',
+    title: 'Recipy - Recipe Finder',
     info:
-      'A Yelp-like application for sharing and rating campground created with Javascript, NodeJS, Express and MongoDB. Uses google maps to create cluster areas of campgrounds listed in a custom cloud database. Comes with secure authentication to ensure only logged in users have access to database.',
+      'A prgoressive web app built with React, Gatsby, and custom SCSS. Built with speed and optimization in cooperation with mobile-design practices first. If the web speed is slow or offline, the app should not disconnect the user. ',
     info2:
-      'Uses geocoding to plot areas by map and allows users to leave ratings. Logging out/switching accounts disables other user features as a normal app would.',
-    url: 'https://mysterious-sierra-35230.herokuapp.com/',
-    repo: 'https://github.com/ArtAttac/Yelp-Camp',
+      'Uses a custom built web-scraper in addition to a recipe API for as many recipes as possible to be present to the user. ',
+    url: 'https://recipy-art.netlify.app/',
+    repo: 'https://github.com/ArtAttac/recipy',
   },
   {
     id: nanoid(),
     img: 'project2.png',
     title: 'Tracker Bracker App',
     info:
-      'A progressive web app turned to a React Native phone application. With authorization and authentication, the correct and remembered user can input their path name and start recording their path.',
+      'Also a PWA turned to a React Native phone application. With authorization and authentication, the correct and remembered user can input their path name and start recording their path.',
     info2:
       "The app will follow user's phone at the accuracy and level set by user's requested battery allowance. User can save and look at all past tracks. Uses a Ngrok tunnel so until production, demo can't be seen.",
     url: 'https://github.com/ArtAttac/Tracker-React-Native',
@@ -49,14 +49,14 @@ export const projectsData = [
   
   {
     id: nanoid(),
-    img: 'project4.png',
-    title: 'JS Web Paint Clone (w/ Local Save/Load)',
+    img: 'artsart.png',
+    title: 'Arts Artsy Art',
     info:
-      ' A javascript app that was created to showcase the canvas functionalty and the local storage. Users can draw, erase, change the background and more. They can also save their work to their machine or to the local storage in the application.',
+      ' An advanced javascript/React app that accepts photos/information from users to create a mini-picture "blog post". Uses React, MongoDB for storage, Express and Node for the server-side. ',
     info2:
-      'If user selects load within the app, the previously kept image in local storage will reappear.',
-    url: 'https://artattac.github.io/JS-Paint-Clone-w-Save-and-Load/',
-    repo: 'https://github.com/ArtAttac/JS-Paint-Clone-w-Save-and-Load',
+      'User can submit a picture of a jpeg, jpg, png, or gif(although the gif will not play) with information and the data will be posted in a blog like fashion. ',
+    url: 'https://arts-artsy-art.netlify.app/',
+    repo: 'https://github.com/ArtAttac/arthurs-artsy-art',
   }
 ];
 
