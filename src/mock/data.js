@@ -16,10 +16,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hi, I'm Arthur from Queens, NY! I started self-teaching myself JavaScript and jQuery in 2018. Almost two years later, I have already worked on almost 12 freelance projects, created over 40 of my own personal projects, and became efficient in React and Redux. React Native and Kotlin are other technologies I'm extremely comfortable working with. I have worked with companies such as Maybelline and Neutrogena to design and create web designs for their promotional products. At L'Oreal Paris, I also worked with House99 to oversee the deployment of their new website/online store.",
+    "Hi, I'm Arthur from Queens, NY! I started self-teaching myself frontend code, heavily specializing in JavaScript and jQuery in 2018. Almost two years later, I have already worked on almost 12 freelance projects, created over 40 of my own personal projects, and became efficient in React and Redux. React Native and Kotlin are other technologies I'm extremely comfortable working with. I have worked with companies such as Maybelline and Neutrogena to design and create web designs for their promotional products. At L'Oreal Paris, I also worked with House99 to oversee the deployment of their new website/online store.",
   paragraphTwo:
     'Besides my passion for coding and creating web/mobile applications, I love designing templates, creating logos and photoshopping funny pictures for shirts. In my free time, I enjoy playing basketball, hiking and exploring nature, and catching up on my favorite podcasts.',
-  paragraphThree: 'After understanding Webpack, Babel, web security, web optimization and how the general structure of the internet and databases work, I would consider myself a great, all around web developer capable of creating almost any app that comes to mind to life.Please enjoy getting to know my projects and I better.',
+  paragraphThree: 'After understanding Webpack, Babel, web security, web optimization and how the general structure of the internet and databases work, I would consider myself a great, all-around web developer capable of creating almost any app that comes to mind to life. Please enjoy getting to know my projects and I better.',
   resume: 'https://drive.google.com/file/d/1hMrpyFGCVXr14lrUCJxolsJLknwAH5UD/view?usp=sharing',
 };
 
