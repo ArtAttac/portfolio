@@ -26,6 +26,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'campsite.png',
+    title: 'SearchCamp 2.0',
+    info:
+      'A Yelp-Like social media clone but for campgrounds. Users can post their favorite campsites which gets saved to their account as well as posted to a Map Box and other users can like, share, and even review other campsites.',
+    info2:
+      "Has complete responsive design with a full back end with Node.js, Express and MongoDB. Utilizing Schemas and fixing common security issues really helped push me further into this field. Has complete and full authentication, authorization and efficient optimization.",
+    url: 'https://search-camp.herokuapp.com/',
+    repo: 'https://github.com/ArtAttac/SearchCamp2',
+  },
+  {
+    id: nanoid(),
     img: 'recipy.png',
     title: 'Recipy - Recipe Finder',
     info:
@@ -34,19 +45,7 @@ export const projectsData = [
       'Uses a custom built web-scraper in addition to a recipe API for as many recipes as possible to be present to the user. ',
     url: 'https://recipy-art.netlify.app/',
     repo: 'https://github.com/ArtAttac/recipy',
-  },
-  {
-    id: nanoid(),
-    img: 'project2.png',
-    title: 'Tracker Bracker App',
-    info:
-      'Also a PWA turned to a React Native phone application. With authorization and authentication, the correct and remembered user can input their path name and start recording their path.',
-    info2:
-      "The app will follow user's phone at the accuracy and level set by user's requested battery allowance. User can save and look at all past tracks. Uses a Ngrok tunnel so until production, demo can't be seen.",
-    url: 'https://github.com/ArtAttac/Tracker-React-Native',
-    repo: 'https://github.com/ArtAttac/Tracker-React-Native',
-  },
-  
+  },  
   {
     id: nanoid(),
     img: 'artsart.png',
