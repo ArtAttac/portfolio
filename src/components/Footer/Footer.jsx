@@ -40,7 +40,7 @@ const Footer = () => {
         <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/artattac" target="_blank" rel="noopener noreferrer">
-            Arthur Itzhaki
+            Simplefolio & Arthur Itzhaki
           </a>
         </p>
 
