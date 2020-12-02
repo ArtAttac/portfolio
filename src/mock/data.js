@@ -11,6 +11,7 @@ export const heroData = {
   name: 'Arthur Itzhaki',
   subtitle: "I'm a Web Developer",
   cta: 'Know more',
+  blog: 'Check Out My Blog',
 };
 
 export const aboutData = {
