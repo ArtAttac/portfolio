@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, subtitle, cta, blog } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -37,6 +37,15 @@ const Header = () => {
               <Link to="about" smooth duration={1000}>
                 {cta || 'Know more'}
               </Link>
+            </span>
+          </p>
+        </Fade>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="60px">
+          <p className="hero-blog-cta">
+            <span className="cta-btn cta-btn--hero">
+              <a href="https://artcode.hashnode.dev/" smooth duration={1000}>
+                {blog || 'Check Out My Blog'}
+              </a>
             </span>
           </p>
         </Fade>
